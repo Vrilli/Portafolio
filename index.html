@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Portafolio Vrilli</title>
+  </head>
+  <body>
+    <div class="main">
+      <section class="home-section align-items-center hidden">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="home-text">
+              <p>Hola, Soy</p>
+              <h1>Vrilli Castro</h1>
+              <h2>Frontend Developer</h2>
+              <a href="#" class="btn">Acerca de Mí</a>
+              <a href="#" class="btn">Portafolio</a>
+            </div>
+            <div class="home-img">
+              <div class="img-box">
+                <img src="./imagen/vrilli.jpeg" alt="profile-img" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about-section sec-padding">
+        <div class="container">
+          <div class="row">
+            <div class="section-tittle">
+              <h2>Acerca de Mí</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="about-img">
+              <div class="img-box">
+                <img
+                  src="./imagen/vrilli3.jpeg"
+                  alt="about img"
+                  width="250px"
+                  height="250px"
+                />
+              </div>
+            </div>
+
+            <div class="about-text">
+              <p>
+                Un texto es una composición de signos codificados en un sistema
+                de escritura que forma una unidad de sentido. También es una
+                composición de caracteres imprimibles generados por un algoritmo
+                de cifrado que, aunque no tienen sentido para cualquier persona,
+                sí puede ser descifrado por su destinatario original.
+              </p>
+              <h3>Habilidades</h3>
+              <div class="skills">
+                <div class="skill-item">HTML</div>
+                <div class="skill-item">CSS</div>
+                <div class="skill-item">JAVASCRIPT</div>
+                <div class="skill-item">REACT JS</div>
+                <div class="skill-item">BOOTSTRAP</div>
+              </div>
+
+              <div class="about-tabs">
+                <button
+                  type="button"
+                  class="tab-item active"
+                  data-target="#education"
+                >
+                  EDUCACIÓN
+                </button>
+                <button
+                  type="button"
+                  class="tab-item"
+                  data-target="#experience"
+                >
+                  EXPERIENCIA
+                </button>
+              </div>
+
+              <div class="tab-content" id="education">
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <span class="date">2012-2013</span>
+                        <h4>SENA</h4>
+                        <p>
+                          Técnico en Sistemas
+                        </p>
+                      </div>
+                  <div class="timeline-item">
+                    <span class="date">2021-2022</span>
+                    <h4>Academia Geek</h4>
+                    <p>
+                      Desarrolladora Frontend con enfasis en React js. con
+                      conocimientos intermedios en Html, Css, Javascript,
+                      Bootstrap y React js.
+                    </p>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="./javascript.js"></script>
+  </body>
+</html>
